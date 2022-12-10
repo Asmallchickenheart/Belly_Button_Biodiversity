@@ -1,0 +1,25 @@
+.container-fluid {
+    overflow: hidden;
+}
+
+.card-title {
+    font-size: 1rem;
+}
+
+#demographic {
+    background-color: #3d6da9;
+    color: white;
+    font-weight: bold;
+}
+
+.dropdown-menu {
+    max-height: 240px;
+    overflow-y: scroll;
+}
+
+.dropdown-menu > li:nth-child(odd) {
+    background: #f2f2f2;
+}
+.dropdown-menu > li:nth-child(even) {
+    background: #ffffff;
+}

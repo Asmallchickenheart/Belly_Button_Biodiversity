@@ -6,7 +6,7 @@ let sample_data_map = {};
 
 // load when page is ready
 async function init() {
-    sample_data = await d3.json("/data/samples.json")
+    sample_data = await d3.json("data/samples.json")
 
     // create sample metadata id-index map
     for (let i = 0; i < sample_data.metadata.length; i++) {
